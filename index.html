@@ -20,8 +20,35 @@
         <nav class="bg-emerald-600 py-8"> <h1 class="text-center text-white font-bold text-3xl">Shopping cart</h1></nav>
     </header>
     <!-- main section with 3 products   -->
+    <main>
+        <section class="container bg-white my-8 p-8 rounded-md shadow-md mx-auto flex justify-evenly items-center">
+            <img src="images/iphone.jpg" class="w-20 rounded-lg" alt="">
+            <h2 class="text-2xl w-96 ">Iphone 13 pro max</h2>
+            <h1 class="text-3xl font-semibold">$ <span id="phone-price">999</span></h1>
+            <div class="rounded-md overflow-hidden bg-emerald-500 ">
+                <button class="px-4 py-2 bg-emerald-500 text-white font-bold" id="phone-increase">+</button>
+                <input type="text" value="1" class="py-2 px-4 text-center w-20 bg-emerald-100 m-0" id="phone-quantity">
+                <button class="px-4 py-2 bg-emerald-500 text-white font-bold m-0" id="phone-decrease">-</button>
+            </div>
+            <h3 class="font-semibold text-2xl ">$ <span id="phone-total">999</span></h3>
+        </section>
+        <section class="container bg-white my-8 p-8 rounded-md shadow-md mx-auto flex justify-evenly items-center">
+            <img src="images/macbook.jpg" class="w-20 rounded-lg" alt="">
+            <h2 class="text-2xl w-96 ">Macbook mini with M1 chip</h2>
+            <h1 class="text-3xl font-semibold">$ <span id="macbook-price">999</span></h1>
+            <div class="rounded-md overflow-hidden bg-emerald-500">
+                <button class="px-4 py-2 bg-emerald-500 text-white font-bold" id="macbook-increase">+</button>
+                <input type="text" value="1" class="py-2 px-4 text-center w-20 bg-emerald-100 m-0" id="macbook-quantity">
+                <button class="px-4 py-2 bg-emerald-500 text-white font-bold m-0" id="macbook-decrease">-</button>
+            </div>
+            <h3 class="font-semibold text-2xl ">$ <span id="macbook-total">1299</span></h3>
+        </section>
+        
+    </main>
     <!-- footer with final calculation  -->
-
+    <footer>
+        
+    </footer>
     <script src="js/app.js"></script>
 </body>
 
