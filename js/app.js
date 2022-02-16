@@ -12,10 +12,10 @@ document.getElementById("macbook-increase").addEventListener("click", function()
     productCalculation("macbook", true, 1299);
 });
 document.getElementById("flower-decrease").addEventListener("click", function(){
-    productCalculation("flower", false ,49);
+    productCalculation("flower", false ,99);
 });
 document.getElementById("flower-increase").addEventListener("click", function(){
-    productCalculation("flower", true, 49);
+    productCalculation("flower", true, 99);
 });
 
 function productCalculation(productName, isIncreasing ,price){
