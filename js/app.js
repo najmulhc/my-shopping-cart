@@ -25,7 +25,7 @@ function productCalculation(productName, isIncreasing ,price){
         productCount++;
     }
     else{
-        if(productCount >= 0){
+        if(productCount > 0){
             productCount--;
         }
     }
